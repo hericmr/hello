@@ -68,3 +68,26 @@
     margin: 5px;
     cursor: pointer;
 }
+
+.advanced-search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.advanced-search-container input[type="text"] {
+    margin-bottom: 10px;
+}
+
+.advanced-search-container button {
+    background-color: #4285f4; /* Google's blue color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
