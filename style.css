@@ -1,6 +1,6 @@
 body {
     font-family: Futura, Trebuchet MS, Arial, san-serif;
-    color: #202124;
+    color: #43454a;
 }
 
 h1 {
@@ -22,7 +22,7 @@ h3 {
 }
 
 .navbar a {
-    color: #202124;
+    color: #414246;
 }
 
 .navbar a, .navbar a:active, .navbar a:hover, .navbar a:visited {
@@ -73,7 +73,7 @@ h3 {
 
 
 .searchbutton {
-    background-color: #F8F9FA;
+    background-color: #ffffff;
     border-style: none;
     margin: 11px 4px;
     padding: 8px 16px;
