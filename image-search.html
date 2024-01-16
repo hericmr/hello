@@ -1,26 +1,26 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-  <head>
-    <title>Image Search</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <div class="menu">
-      <a href="index.html" class="menu-item">Back to Search</a>
-      <a href="image-search.html" class="menu-item">Image Search</a>    
-      <a href="advanced-search.html" class="menu-item active">Advanced Search</a>
-    </div>
-    <div class="container">
-      <div class="logo">
-        <img src="heric.png" alt="Google Logo">
-        <form action="https://www.google.com/search" method="GET" target="_blank" class="search-form">
-          <input type="text" name="q" placeholder="Busca de imagem..." class="search-input"/>
-          <input type="hidden" name="tbm" value="isch" /> 
-          <form  class="search-button" ction="https://www.google.com/search" method="GET" target="_blank">
-            <input class="search-button" type="submit" value="Pesquisar Imagens"/>
-        </form>
-    </div>
-    </div>
-  </div>
-</body>
+<html lang="en">
+    <head>
+        <title>Hericle Search</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <ul class="navbar">
+    	    <li><a href="image-search.html">Images</a></li>
+    	    <li><a href="advanced-search.html">Advanced</a></li>
+        </ul>
+        <div>
+            <center class="vertical-center">
+              <img src="heric.png" alt="Hericle Logo">
+                <form action="https://google.com/search">
+                    <input type="text" name="q" class="searchbar" placeholder="Type your image search here...">
+          
+                    <input type="hidden" name="tbm" value="isch" /> 
+                  <form  class="search-button" ction="https://www.google.com/search" method="GET" target="_blank">
+                  <input class="search-button" type="submit" value="Pesquisar Imagens"/>
+                  <input class="searchbutton" value="Estou com sorte" aria-label="Estou com sorte" name="btnI" type="submit">
+                </form>
+            </center>
+        </div>
+    </body>
 </html>
