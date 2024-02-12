@@ -2,6 +2,9 @@
 
 Hericle é uma emulação da interface de busca do Google, onde foram usados apenas HTML e CSS para recriar a aparência e algumas funcionalidades do Google.
 
+## Link
+A página pode ser acessada em: (search)[https://hericmr.gitio.com/search]
+
 ## Estrutura 
 
 A estrutura 
